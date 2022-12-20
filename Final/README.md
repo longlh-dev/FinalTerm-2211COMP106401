@@ -1,16 +1,14 @@
-# EC-TH2012-J
-Chia sẻ source ASP.NET MVC 5 - Website bán điện thoại
+# CÔNG NGHỆ NET - 2211COMP106401
+# ĐỒ ÁN WEBSITE SHOP ĐIỆN THOẠI 
+
+# GIỚI THIỆU
+> Đây là trang web được xây dựng trên nền tảng ASP.NET MVC 5, gồm các tính năng như:
+* đăng ký, đăng nhập, phân quyền
+* Tìm kiếm sản phẩm, lọc sản phẩm, bình luận sản phẩm, sản phẩm vừa xem, giỏ hàng, đặt hàng, thay đổi thông tin cá nhân, theo dõi đơn hàng.
+* Quản lý sản phẩm, đơn hàng, khách hàng, đối tác, thống kê doanh thu, chương trình khuyến mãi, quản lý bình luận, API dành cho các đối tác cung cấp hàng hóa...
  
-# Database
-Sử dụng SQL Server 2012 SP1 trở lên.
-
-# Account
-thanhnhannguyen/123456
-
-# Liên hệ:
-sopiaxk@gmail.com hoặc sopiaxk@outlook.com
-
-# Nguồn và tác giả
-- Nguồn: http://diendan.congdongcviet.com/threads/t352236::chia-se-source-asp-net-mvc-5-website-ban-dien-thoai.cpp
-- Tác giả: ntnhan1994 (người chia sẻ).
-
+# CÁC CÔNG NGHỆ SỬ DỤNG:
+* AJAX
+* ENTITY FRAMEWORK
+* IDENTITY FRAMEWORK
+* ETC...
