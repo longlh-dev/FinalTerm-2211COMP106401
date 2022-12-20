@@ -1,19 +1,7 @@
 ﻿@model EC_TH2012_J.Models.LoginViewModel
 
 <h2 class="bordered">Đăng nhập</h2>
-<p>Bạn có thể đăng nhập với:</p>
 
-<div class="social-auth-buttons">
-    <div class="row">
-        <section id="socialLoginForm">
-            @Html.Partial("_ExternalLoginsListPartial", new { Action = "ExternalLogin", ReturnUrl = ViewBag.ReturnUrl })
-        </section>
-
-        @*<div class="col-md-6">
-                <button class="btn-block btn-lg btn btn-twitter"><i class="fa fa-twitter"></i> Sign In with Twitter</button>
-            </div>*@
-    </div>
-</div>
 
 @using (Html.BeginForm("Login", "Account", new { returnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "login-form cf-style-1", role = "form" }))
 {
@@ -33,9 +21,7 @@
         <span class="pull-left">
             @Html.CheckBoxFor(m => m.RememberMe, new { @class = "le-checbox auto-width inline" })<span class="content-color bold"> Duy trì đăng nhập</span>
         </span>
-        <span class="pull-right">
-            <a href="#" class="content-color bold">Quên mật khẩu ?</a>
-        </span>
+
     </div>
     <div class="buttons-holder">
         <input type="submit" value="Đăng nhập" class="le-button huge" />
